@@ -35,6 +35,7 @@ int APIENTRY WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 }
 ```
 
-
-
 ![](https://github.com/smok95/imguiWin/blob/master/screenshot.png)
+
+## Release
+https://github.com/smok95/imguiWin/releases/tag/v0.0.1
