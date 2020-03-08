@@ -6,38 +6,41 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="imgui\imconfig.h">
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\include\imgui.cpp">
       <Filter>imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui\imgui.h">
+    </ClCompile>
+    <ClCompile Include="..\include\imgui_demo.cpp">
       <Filter>imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui\imgui_internal.h">
+    </ClCompile>
+    <ClCompile Include="..\include\imgui_draw.cpp">
       <Filter>imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui\imstb_rectpack.h">
+    </ClCompile>
+    <ClCompile Include="..\include\imgui_widgets.cpp">
       <Filter>imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui\imstb_textedit.h">
-      <Filter>imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="imgui\imstb_truetype.h">
-      <Filter>imgui</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="imgui\imgui.cpp">
+    <ClInclude Include="..\include\imconfig.h">
       <Filter>imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui\imgui_demo.cpp">
+    </ClInclude>
+    <ClInclude Include="..\include\imgui.h">
       <Filter>imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui\imgui_draw.cpp">
+    </ClInclude>
+    <ClInclude Include="..\include\imgui_internal.h">
       <Filter>imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui\imgui_widgets.cpp">
+    </ClInclude>
+    <ClInclude Include="..\include\imguiWin.h">
       <Filter>imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp" />
+    </ClInclude>
+    <ClInclude Include="..\include\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
